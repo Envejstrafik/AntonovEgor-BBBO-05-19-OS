@@ -23,12 +23,12 @@ namespace Practice1._2
       Console.WriteLine("Файл создан успешно!");
       Console.ReadKey();
 
-      Console.Write("Введите строку:");
+      Console.Write("Введите строку, которую хотите записать в файл: ");
       string strToFile = Console.ReadLine();
       byte[] input = new UTF8Encoding(true).GetBytes(strToFile);
       fileStream.Write(input, 0, input.Length);
       fileStream.Close();
-      Console.WriteLine("Строка была записана в файл.\n");
+      Console.WriteLine("Строка записана успешно!");
       Console.ReadKey();
 
       Console.Write("Введите название файла, который хотите вывести в консоль: ");
