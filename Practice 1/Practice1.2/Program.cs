@@ -14,7 +14,8 @@ namespace Practice1._2
       try
       {
         fileStream = File.Create(fileName);
-      } catch
+      } 
+      catch
       {
         Console.WriteLine("Ошибка! Введено невозможное имя для файла, или директория недоступна!");
         Console.WriteLine("Не удалось создать файл!");
