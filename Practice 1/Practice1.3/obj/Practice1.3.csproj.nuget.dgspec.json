@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\source\\repos\\Practice 1\\Practice1.3\\Practice1.3.csproj": {}
+    "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 1\\Practice1.3\\Practice1.3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\source\\repos\\Practice 1\\Practice1.3\\Practice1.3.csproj": {
+    "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 1\\Practice1.3\\Practice1.3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\Practice 1\\Practice1.3\\Practice1.3.csproj",
+        "projectUniqueName": "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 1\\Practice1.3\\Practice1.3.csproj",
         "projectName": "Practice1.3",
-        "projectPath": "C:\\Users\\student\\source\\repos\\Practice 1\\Practice1.3\\Practice1.3.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\Practice 1\\Practice1.3\\obj\\",
+        "projectPath": "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 1\\Practice1.3\\Practice1.3.csproj",
+        "packagesPath": "C:\\Users\\Егор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 1\\Practice1.3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Егор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

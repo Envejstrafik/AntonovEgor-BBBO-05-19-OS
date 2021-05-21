@@ -1,0 +1,13 @@
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\bin\Debug\netcoreapp3.1\Practice1.3.exe
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\bin\Debug\netcoreapp3.1\Practice1.3.deps.json
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\bin\Debug\netcoreapp3.1\Practice1.3.runtimeconfig.json
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\bin\Debug\netcoreapp3.1\Practice1.3.runtimeconfig.dev.json
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\bin\Debug\netcoreapp3.1\Practice1.3.dll
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\bin\Debug\netcoreapp3.1\Practice1.3.pdb
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.csprojAssemblyReference.cache
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.AssemblyInfoInputs.cache
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.AssemblyInfo.cs
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.dll
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.pdb
+C:\Users\Егор\Source\Repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 1\Practice1.3\obj\Debug\netcoreapp3.1\Practice1.3.genruntimeconfig.cache

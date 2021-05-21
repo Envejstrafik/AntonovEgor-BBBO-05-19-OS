@@ -7,12 +7,28 @@ using System.Threading.Tasks;
 
 namespace Practice1._3
 {
+  [Serializable]
+  class Person
+  {
+    public string Name { get; set; }
+    public int Age { get; set; }
+
+    public Person(string name, int age)
+    {
+      Name = name;
+      Age = age;
+    }
+    public Person() { }
+  }
+
   class Program
   {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
+
       Console.Write("Введите название файла, который хотите создать (JSON): ");
       string fileName = Console.ReadLine();
+      fileName += ".json";
       FileStream fileStream;
       try
       {
@@ -27,20 +43,29 @@ namespace Practice1._3
       Console.WriteLine("Файл создан успешно!");
       Console.ReadKey();
 
-      Console.Write("Введите строку:");
-      string strToFile = Console.ReadLine();
-      byte[] input = new UTF8Encoding(true).GetBytes(strToFile);
-      fileStream.Write(input, 0, input.Length);
+      Person persObject = new Person();
+
+      Console.Write("Введите имя человека: ");
+      persObject.Name = Console.ReadLine();
+      Console.Write("Введите возраст человека: ");
+      persObject.Age = Convert.ToInt32(Console.ReadLine());
+
+      await JsonSerializer.SerializeAsync<Person>(fileStream, persObject);
+
+      Console.WriteLine("Объект был записан в файл.");
       fileStream.Close();
-      Console.WriteLine("Строка была записана в файл.");
       Console.ReadKey();
 
-      Console.Write("Введите название файла, который хотите вывести в консоль: ");
+
+
+      Console.Write("Введите название json-файла, который хотите вывести в консоль: ");
       fileName = Console.ReadLine();
-      StreamReader streamReader;
+      fileName += ".json";
+
+
       try
       {
-        streamReader = File.OpenText(fileName);
+        fileStream = File.Open(fileName, FileMode.Open);
       }
       catch
       {
@@ -49,12 +74,13 @@ namespace Practice1._3
         return;
       }
 
-      string strFromFile;
-      while ((strFromFile = streamReader.ReadLine()) != null)
-      {
-        Console.WriteLine(strFromFile);
-      }
-      streamReader.Close();
+      Person restoredPersObject = await JsonSerializer.DeserializeAsync<Person>(fileStream);
+      fileStream.Close();
+
+      Console.Clear();
+      Console.WriteLine($"Имя: {restoredPersObject.Name}");
+      Console.WriteLine($"Возраст: {restoredPersObject.Age}");
+
       Console.WriteLine("Файл прочитан успешно!");
       Console.ReadKey();
 
