@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book name="sef">
+    <author>werf</author>
+    <pubHouse>qw</pubHouse>
+    <price>ty</price>
+  </book>
+  <book name="we">
+    <author>rth</author>
+    <pubHouse>qw</pubHouse>
+    <price>rt</price>
+  </book>
+  <book name="qwe">
+    <author>tyu</author>
+    <pubHouse>qwe</pubHouse>
+    <price>t</price>
+  </book>
+  <book name="wef">
+    <author>hmjk7</author>
+    <pubHouse>3453</pubHouse>
+    <price>345345</price>
+  </book>
+</books>
