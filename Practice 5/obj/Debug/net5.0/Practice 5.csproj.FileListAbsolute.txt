@@ -1,0 +1,16 @@
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.csprojAssemblyReference.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.AssemblyInfoInputs.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.AssemblyInfo.cs
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.csproj.CoreCompileInputs.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\Practice 5.exe
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\Practice 5.deps.json
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\Practice 5.runtimeconfig.json
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\Practice 5.runtimeconfig.dev.json
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\Practice 5.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\ref\Practice 5.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\bin\Debug\net5.0\Practice 5.pdb
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\ref\Practice 5.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.pdb
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 5\obj\Debug\net5.0\Practice 5.genruntimeconfig.cache
