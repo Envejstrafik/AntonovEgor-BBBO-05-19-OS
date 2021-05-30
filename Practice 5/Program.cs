@@ -192,7 +192,7 @@ namespace Practice_5
       { //Если в очереди что-то есть, то оно вставляется на место удаленного процесса
         process.Insert(numOfCell - 1, new Tuple<int, int>(queue[0], numOfCell - 1));
         cellsOfProcesses[numOfCell - 1] = maxMemForCell - queue[0];
-        for(int i = 1; i < queue.Count; i++)
+        for(int i = 1; i < queue.Count; i++) // Сдвиг очереди
         {
           queue[i - 1] = queue[i];
           queue[i] = 0;
