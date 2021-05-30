@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj": {}
+    "C:\\Users\\Егор\\source\\repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj": {
+    "C:\\Users\\Егор\\source\\repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj",
+        "projectUniqueName": "C:\\Users\\Егор\\source\\repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj",
         "projectName": "Practice 3",
-        "projectPath": "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj",
+        "projectPath": "C:\\Users\\Егор\\source\\repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\Practice 3.csproj",
         "packagesPath": "C:\\Users\\Егор\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Егор\\Source\\Repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\obj\\",
+        "outputPath": "C:\\Users\\Егор\\source\\repos\\Envejstrafik\\AntonovEgor-BBBO-05-19-OS\\Practice 3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Егор\\AppData\\Roaming\\NuGet\\NuGet.Config",

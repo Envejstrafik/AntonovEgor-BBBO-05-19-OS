@@ -13,3 +13,4 @@ C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3
 C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\ref\Practice 3.dll
 C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.pdb
 C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.genruntimeconfig.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.csprojAssemblyReference.cache

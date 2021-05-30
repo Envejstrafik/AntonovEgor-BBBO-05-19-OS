@@ -9,19 +9,15 @@ namespace Practice_3
     static List<int> produce = new List<int>();
     static List<int> consume = new List<int>();
 
+
     static bool needToProduce = true;
-
-    static object lockerManufacturer = new object();
-    static object lockerConsumer = new object();
-
     
     static void Manufacturer(object num)
     {
-      bool acquiredLock;
       bool isSleeping = false;
       int number = (int)num;
 
-      int generatedNum; // Число, генерируемое производителем
+      int generatedNum = -5; // Число, генерируемое производителем
 
       Random rnd = new Random();
  
@@ -34,32 +30,19 @@ namespace Practice_3
           Thread.Sleep(1500);
           continue;
         }
-        else if(produce.Count <= 80 && isSleeping == true)
+        else if(produce.Count <= 80 && isSleeping)
         {
           Console.WriteLine($"Производитель №{number} просыпается");
           isSleeping = false;
-        }
-        generatedNum = rnd.Next(1, 100);
-        acquiredLock = false; 
-        try
-        {
-          Monitor.Enter(lockerManufacturer, ref acquiredLock);
+          generatedNum = rnd.Next(1, 100);
           produce.Add(generatedNum);
-          Thread.Sleep(0);
-        }
-        finally
-        {
-          if (acquiredLock) Monitor.Exit(lockerManufacturer);
-        }
-
-        
+        } 
         Console.WriteLine($"Производитель №{number} создал число {generatedNum}");
       }
       Console.WriteLine($"Производитель №{number} закончил работу");
     }
     static void Consumer(object Num)
     {
-      bool acquiredLock;
       
       bool isSleeping = false;
       int number = (int)Num;
@@ -79,35 +62,25 @@ namespace Practice_3
           Console.WriteLine($"Потребитель №{number} просыпается");
           isSleeping = false;
         }
-        acquiredLock = false;
-        try
+        if (produce.Count != 0)
         {
-          Monitor.Enter(lockerConsumer, ref acquiredLock);
-          if (produce.Count != 0)
-          {
-            consumingNum = produce[0];
-            produce.RemoveAt(0);
-            Thread.Sleep(0);
-          }
-          else
-          {
-            Thread.Sleep(0);
-            continue;
-          }
-        } 
-        finally 
+          consumingNum = produce[0];
+          produce.RemoveAt(0);
+          consume.Add(consumingNum);
+          Console.WriteLine($"Потребитель №{number} взял число {consumingNum}");
+          Thread.Sleep(0);
+        }
+        else
         {
-          if (acquiredLock) Monitor.Exit(lockerConsumer);
-        } 
-        consume.Add(consumingNum);
-        Console.WriteLine($"Потребитель №{number} взял число {consumingNum}");
+          Thread.Sleep(0);
+          continue;
+        }
       }
       Console.WriteLine($"Потребитель №{number} закончил работу");
     }
     static void Main(string[] args)
     {
       char Qexit;
-    
       List<Thread> prod = new List<Thread>();
       List<Thread> cons = new List<Thread>();
 
