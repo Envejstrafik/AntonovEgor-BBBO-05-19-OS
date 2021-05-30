@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Threading;
 using System.Security.Cryptography;
 using System.Text;
@@ -41,7 +40,7 @@ namespace Practice_2
       {
         int countStreamTries = 26 / countOfStreams;
         int countStreamMOD = 26 % countOfStreams;
-        
+
         for (int i = 0; i < countOfStreams; i++)
         {
           threads.Add(new Thread(new ParameterizedThreadStart(tBrootforce)));
@@ -80,12 +79,12 @@ namespace Practice_2
                 pass[3] = Convert.ToChar(l);
                 pass[4] = Convert.ToChar(m);
                 password = new string(pass);
-            //    Console.WriteLine(password);
+                //    Console.WriteLine(password);
                 newHash = getHash(password);
 
-                for(int n = 0; n < 3; n++)
+                for (int n = 0; n < 3; n++)
                 {
-                  if(newHash == hashes[n])
+                  if (newHash == hashes[n])
                   {
                     Console.WriteLine($"pass: {password}");
                     Console.WriteLine($"hash: {newHash}");
@@ -97,7 +96,7 @@ namespace Practice_2
               }
     }
 
-  
+
     public static string getHash(string text) // Функция взята из открытых источников
     {
       byte[] data = Encoding.Default.GetBytes(text);
