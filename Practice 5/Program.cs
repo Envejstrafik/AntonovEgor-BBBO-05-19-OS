@@ -154,9 +154,9 @@ namespace Practice_5
       {
         if (cellsOfProcesses[i] == maxMemForCell)
         {
-          Console.WriteLine($"Ячейка {i + 1} свободна");
+          Console.WriteLine($"Ячейка {i + 1} - {cellsOfProcesses[i]} байт  -  свободна");
         } 
-        else Console.WriteLine($"Ячейка {i + 1} - {cellsOfProcesses[i]} байт");
+        else Console.WriteLine($"Ячейка {i + 1} - {cellsOfProcesses[i]} байт  -  процесс на {maxMemForCell - cellsOfProcesses[i]}");
       }
       Console.ReadKey();
     }
@@ -190,8 +190,18 @@ namespace Practice_5
       process.RemoveAt(numOfCell-1); // Удаление процесса
       if (queue.Count != 0)
       { //Если в очереди что-то есть, то оно вставляется на место удаленного процесса
-        process.Insert(numOfCell - 1, new Tuple<int, int>(queue[0], numOfCell - 1)); 
-        queue.RemoveAt(0); // Первый процесс из очереди удаляется
+        process.Insert(numOfCell - 1, new Tuple<int, int>(queue[0], numOfCell - 1));
+        cellsOfProcesses[numOfCell - 1] = maxMemForCell - queue[0];
+ //       queue.RemoveAt(0); // Первый процесс из очереди удаляется
+        for(int i = 1; i < queue.Count; i++)
+        {
+          queue[i - 1] = queue[i];
+          queue[i] = 0;
+        }
+   //     if(queue[queue.Count-1] == 0)
+ //       {
+          queue.RemoveAt(queue.Count - 1);
+//        }
       } else
         process.Insert(numOfCell - 1, new Tuple<int, int>(maxMemForCell, -5)); // Отрицательный номер ячейки (-5) используется как маркер пустой ячейки
 
