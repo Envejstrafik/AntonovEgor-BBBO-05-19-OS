@@ -1,0 +1,15 @@
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\Practice 3.exe
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\Practice 3.deps.json
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\Practice 3.runtimeconfig.json
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\Practice 3.runtimeconfig.dev.json
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\Practice 3.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\ref\Practice 3.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\bin\Debug\net5.0\Practice 3.pdb
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.AssemblyInfoInputs.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.AssemblyInfo.cs
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.csproj.CoreCompileInputs.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\ref\Practice 3.dll
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.pdb
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 3\obj\Debug\net5.0\Practice 3.genruntimeconfig.cache
