@@ -110,6 +110,7 @@ namespace Practice_4_wf
       // 
       // button_blockThread3
       // 
+      this.button_blockThread3.Enabled = false;
       this.button_blockThread3.Location = new System.Drawing.Point(6, 112);
       this.button_blockThread3.Name = "button_blockThread3";
       this.button_blockThread3.Size = new System.Drawing.Size(210, 36);
@@ -120,6 +121,7 @@ namespace Practice_4_wf
       // 
       // button_blockThread2
       // 
+      this.button_blockThread2.Enabled = false;
       this.button_blockThread2.Location = new System.Drawing.Point(6, 70);
       this.button_blockThread2.Name = "button_blockThread2";
       this.button_blockThread2.Size = new System.Drawing.Size(210, 36);
@@ -130,6 +132,7 @@ namespace Practice_4_wf
       // 
       // button_blockThread1
       // 
+      this.button_blockThread1.Enabled = false;
       this.button_blockThread1.Location = new System.Drawing.Point(7, 28);
       this.button_blockThread1.Name = "button_blockThread1";
       this.button_blockThread1.Size = new System.Drawing.Size(209, 36);
@@ -545,6 +548,7 @@ namespace Practice_4_wf
       this.Controls.Add(this.groupBox1);
       this.Name = "Form1";
       this.Text = "Form1";
+      this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
       this.Load += new System.EventHandler(this.Form1_Load);
       this.groupBox1.ResumeLayout(false);
       this.groupBox2.ResumeLayout(false);
