@@ -1,0 +1,10 @@
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\bin\Debug\Practice 4_wf.exe.config
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\bin\Debug\Practice 4_wf.exe
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\bin\Debug\Practice 4_wf.pdb
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice 4_wf.csprojAssemblyReference.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice_4_wf.Form1.resources
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice_4_wf.Properties.Resources.resources
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice 4_wf.csproj.GenerateResource.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice 4_wf.csproj.CoreCompileInputs.cache
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice 4_wf.exe
+C:\Users\Егор\source\repos\Envejstrafik\AntonovEgor-BBBO-05-19-OS\Practice 4_wf\obj\Debug\Practice 4_wf.pdb
